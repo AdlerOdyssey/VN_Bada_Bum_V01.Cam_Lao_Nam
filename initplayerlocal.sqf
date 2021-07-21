@@ -4,3 +4,7 @@ if (didJIP) then {
 
 ["InitializePlayer", [player,true]] call BIS_fnc_dynamicGroups;
 grad_template_ratingEH = player addEventHandler ["HandleRating",{0}];
+
+
+//Insignia 
+[player,"vn_b_insignia_1_cav_01"] call BIS_fnc_setUnitInsignia;
