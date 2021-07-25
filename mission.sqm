@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=2623;
+		nextID=2624;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=424;
+		nextID=434;
 	};
 	class Camera
 	{
-		pos[]={15735.568,55.207409,7035.8779};
-		dir[]={-0.017098917,-0.46838617,0.88335848};
-		up[]={-0.0090646967,0.883524,0.46829894};
-		aside[]={0.9998138,8.4464773e-009,0.019353135};
+		pos[]={4849.7925,298.7677,18508.246};
+		dir[]={0.054041672,-0.68402427,0.72746187};
+		up[]={0.050675184,0.72945702,0.68214643};
+		aside[]={0.9972555,9.1284164e-008,-0.074084498};
 	};
 };
 binarizationWanted=0;
@@ -6788,7 +6788,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=100;
+		items=101;
 		class Item0
 		{
 			dataType="Layer";
@@ -13152,11 +13152,11 @@ class Mission
 		class Item51
 		{
 			dataType="Trigger";
-			position[]={15660.683,14.98,7100.7202};
+			position[]={4824.2798,240.94986,18578.055};
 			class Attributes
 			{
 				condition="call{this}";
-				onActivation="call{[] execVM ""play_air_2.sqf"";}";
+				onActivation="call{[] execVM ""play_air_2.sqf"";" \n "}";
 				sizeA=0;
 				sizeB=0;
 				repeatable=1;
@@ -13164,6 +13164,7 @@ class Mission
 			};
 			id=2301;
 			type="EmptyDetector";
+			atlOffset=1.4049988;
 		};
 		class Item52
 		{
@@ -25111,7 +25112,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15741.532,17.864819,7136.3193};
-				angles[]={-0,3.1691689,0};
+				angles[]={0,3.1691689,0};
 			};
 			side="Empty";
 			flags=4;
@@ -25145,6 +25146,23 @@ class Mission
 				};
 				nAttributes=1;
 			};
+		};
+		class Item100
+		{
+			dataType="Trigger";
+			position[]={4832.2251,241.3459,18579.574};
+			class Attributes
+			{
+				condition="call{this}";
+				onActivation="call{air_3 engineon true;" \n "air_4 engineon true;" \n "" \n "[] execVM ""UnitCapture_Air_2.sqf"";}";
+				sizeA=0;
+				sizeB=0;
+				repeatable=1;
+				activationBy="BRAVO";
+			};
+			id=2623;
+			type="EmptyDetector";
+			atlOffset=1.4049835;
 		};
 	};
 	class Connections
