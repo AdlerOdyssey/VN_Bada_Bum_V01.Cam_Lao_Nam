@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=480;
+		nextID=492;
 	};
 	class Camera
 	{
-		pos[]={15828.957,72.686668,7017.3521};
-		dir[]={-0.063716561,-0.39841077,0.91506886};
-		up[]={-0.02767664,0.91718131,0.39749402};
-		aside[]={0.99765277,1.5928526e-007,0.069465227};
+		pos[]={15798.239,90.227921,7000.8115};
+		dir[]={-0.18654326,-0.41619897,0.89001954};
+		up[]={-0.085386306,0.90924561,0.40739259};
+		aside[]={0.97880703,2.7204078e-007,0.20515096};
 	};
 };
 binarizationWanted=0;
@@ -7522,14 +7522,14 @@ class Mission
 							class PositionInfo
 							{
 								position[]={15999.666,14.98,7085.3931};
-								angles[]={-0,2.9923522,0};
+								angles[]={0,2.9923522,0};
 							};
 							title="Zugtrupp";
 							id=1971;
 						};
 					};
 					id=948;
-					atlOffset=17.696508;
+					atlOffset=5.7148952;
 				};
 				class Item8
 				{
@@ -7706,7 +7706,7 @@ class Mission
 							class PositionInfo
 							{
 								position[]={16012.153,14.981439,7129.1299};
-								angles[]={-0,2.9923496,0};
+								angles[]={0,2.9923496,0};
 							};
 							side="West";
 							flags=4;
@@ -8446,7 +8446,7 @@ class Mission
 				};
 			};
 			id=729;
-			atlOffset=-84.941605;
+			atlOffset=-85.363373;
 		};
 		class Item2
 		{
@@ -9037,7 +9037,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16000.765,14.981439,7135.8999};
-						angles[]={-0,2.9766562,0};
+						angles[]={0,2.9766562,0};
 					};
 					side="West";
 					flags=4;
@@ -9234,7 +9234,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={15999.712,14.981439,7135.9985};
-						angles[]={-0,2.9766643,0};
+						angles[]={0,2.9766643,0};
 					};
 					side="West";
 					flags=4;
@@ -9555,7 +9555,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16000.438,14.981439,7140.1021};
-						angles[]={-0,2.9766643,0};
+						angles[]={0,2.9766643,0};
 					};
 					side="West";
 					flags=4;
@@ -9734,7 +9734,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16001.634,14.981439,7139.9878};
-						angles[]={-0,2.9766643,0};
+						angles[]={0,2.9766643,0};
 					};
 					side="West";
 					flags=4;
@@ -10318,7 +10318,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16015.406,14.981439,7136.3052};
-						angles[]={-0,3.0846648,0};
+						angles[]={0,3.0846648,0};
 					};
 					side="West";
 					flags=4;
@@ -10515,7 +10515,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16014.37,14.981439,7136.5166};
-						angles[]={-0,3.0846729,0};
+						angles[]={0,3.0846729,0};
 					};
 					side="West";
 					flags=4;
@@ -10836,7 +10836,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16015.534,14.981439,7140.5181};
-						angles[]={-0,3.0846729,0};
+						angles[]={0,3.0846729,0};
 					};
 					side="West";
 					flags=4;
@@ -11015,7 +11015,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16016.711,14.981439,7140.2754};
-						angles[]={-0,3.0846729,0};
+						angles[]={0,3.0846729,0};
 					};
 					side="West";
 					flags=4;
@@ -11744,7 +11744,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={15985.233,17.798138,7056.918};
-						angles[]={-0,3.152565,0};
+						angles[]={0,3.152565,0};
 					};
 					side="Empty";
 					flags=4;
@@ -11804,7 +11804,7 @@ class Mission
 					class PositionInfo
 					{
 						position[]={16013.699,17.798138,7057.061};
-						angles[]={-0,3.1624436,0};
+						angles[]={0,3.1624436,0};
 					};
 					side="Empty";
 					flags=4;
@@ -34437,7 +34437,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15707.758,17.007484,7106.0796};
-				angles[]={-0,1.8218513,0};
+				angles[]={0,1.8218513,0};
 			};
 			side="Empty";
 			flags=4;
@@ -34446,6 +34446,7 @@ class Mission
 			};
 			id=3205;
 			type="vn_b_wheeled_m54_ammo_airport";
+			atlOffset=-9.5367432e-007;
 		};
 		class Item47
 		{
@@ -34453,7 +34454,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={15706.857,16.886734,7101.5308};
-				angles[]={-0,1.811747,0};
+				angles[]={0,1.811747,0};
 			};
 			side="Empty";
 			flags=4;
@@ -34478,6 +34479,7 @@ class Mission
 			};
 			id=3207;
 			type="vn_b_wheeled_m54_repair_airport";
+			atlOffset=9.5367432e-007;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -34516,6 +34518,7 @@ class Mission
 			};
 			id=3208;
 			type="Land_CargoBox_V1_F";
+			atlOffset=9.5367432e-007;
 		};
 		class Item50
 		{
@@ -34523,7 +34526,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16076.736,17.880871,7056.52};
-				angles[]={-0,3.1540878,0};
+				angles[]={0,3.1540878,0};
 			};
 			side="Empty";
 			flags=4;
@@ -34539,7 +34542,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16104.226,17.880871,7056.4233};
-				angles[]={-0,3.1540878,0};
+				angles[]={0,3.1540878,0};
 			};
 			side="Empty";
 			flags=4;
@@ -34555,7 +34558,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={16131.425,17.880871,7057.0024};
-				angles[]={-0,3.1540878,0};
+				angles[]={0,3.1540878,0};
 			};
 			side="Empty";
 			flags=4;
